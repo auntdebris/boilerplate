@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "description": "HTML Boilerplate",
+  "homepage": "http://www.sergiosantos.me",
+  "author": "Sérgio Santos",
+  "email": "hello@sergiosantos.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s3rgiosan/boilerplate.git"
+  },
+  "main": "dist/scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-less": "~0.5.0",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-concat": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.1"
+  }
+}
